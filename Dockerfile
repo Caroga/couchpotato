@@ -41,7 +41,7 @@ RUN chmod u+x  /start.sh
 ##         EXPORTS AND VOLUMES         ##
 #########################################
 
-VOLUME ["/config"]
+VOLUME ["/config","/completed","/multimedia"]
 
 EXPOSE 5050
 
